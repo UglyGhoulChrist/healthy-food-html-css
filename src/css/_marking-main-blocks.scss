@@ -17,6 +17,10 @@ body {
 [class*='__container'] {
     max-width: 1110px;
     margin: 0 auto;
-    // border: 1px solid transparent;
-    // outline: 1px solid red;
+}
+
+@media (max-width:1140px) {
+    [class*='__container'] {
+        margin: 0 15px;
+    }
 }
