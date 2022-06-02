@@ -164,4 +164,99 @@ body {
   left: 1px;
   top: 7px;
 }
+
+.button {
+  background: #34C759;
+  padding: 25px 58px;
+  border-radius: 43px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #1A1A1A;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.button:hover {
+  color: #FFFFFF;
+}
+
+.home {
+  background: url("../img/home/background.jpg") center/cover no-repeat;
+}
+
+.home__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 170px 0 400px 0;
+}
+
+.home__title {
+  font-size: 72px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+
+.home__text {
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  max-width: 595px;
+  margin-bottom: 40px;
+}
+
+.home__button {
+  margin-bottom: 70px;
+}
+
+.home__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact-card {
+  width: 245px;
+  padding: 41px 15px 0 15px;
+}
+
+.contact-card__title {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact-card__text {
+  font-size: 14px;
+  line-height: 4.29;
+  text-align: center;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
 /*# sourceMappingURL=style.css.map */
