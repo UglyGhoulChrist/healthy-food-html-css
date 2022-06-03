@@ -1,0 +1,53 @@
+.about {
+
+
+    // .about__container
+
+    &__container {
+        background: #252525;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        padding: 60px 65px 90px 65px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.carousel {
+
+    // .carousel__text
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.88;
+        // text-align: center;
+        color: #A6A6A6;
+    }
+
+    // .carousel__button-img
+
+    &__button-img {
+        display: flex;
+    }
+
+    // .carousel__button
+
+    &__button {
+
+        // .carousel__button_left
+
+        &_left {}
+
+        // .carousel__button_right
+
+        &_right {}
+    }
+
+    // .carousel__picture
+
+    &__picture {}
+
+    // .carousel__image
+
+    &__image {}
+}
