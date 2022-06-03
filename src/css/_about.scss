@@ -1,4 +1,7 @@
 .about {
+    // Сделать Адаптив и Переключение карусели
+
+    margin-top: -245px;
     // .about__container
 
     &__container {
@@ -30,9 +33,9 @@
     &__button-img {
         width: 100%;
         display: flex;
+        gap: 10px;
         align-items: center;
         justify-content: space-evenly;
-
     }
 
     // .carousel__button
@@ -85,5 +88,12 @@
         height: 100%;
         top: 0;
         left: 0;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        transition: all .3s ease 0s;
+
+        &:hover {
+            border-color: $primary;
+        }
     }
 }
