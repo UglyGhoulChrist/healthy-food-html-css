@@ -1,0 +1,36 @@
+.work {
+
+    // .work__container
+
+    &__container {
+        padding: 60px 0 30px 0;
+    }
+
+    // .work__cards
+
+    &__list {
+        margin: 0 -15px;
+        display: flex;
+    }
+
+    &__item{
+        flex: 0 1 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &_h2-subtext{
+        margin-bottom: 60px;
+    }
+}
+
+.h2-subtext {
+
+    // .h2-subtext__h2
+
+    &__h2 {}
+
+    // .h2-subtext__subtext
+
+    &__subtext {}
+}

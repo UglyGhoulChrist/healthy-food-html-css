@@ -13,6 +13,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+    &_h2-subtext{
+        margin-bottom: 30px;
+    }
 }
 
 .carousel {
@@ -43,12 +47,13 @@
     &__button {
         flex: 0 0 60px;
         height: 60px;
-        border: 2px solid #303030;
+        border: 2px solid $subtext;
         border-radius: 50%;
         transition: all .3s ease 0s;
 
         &:hover {
             border-color: $primary;
+            cursor: pointer;
         }
 
         &:active {

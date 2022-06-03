@@ -1,0 +1,43 @@
+.card {
+
+    // .card__link
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        background: $dark-gray;
+        box-shadow: 0px 2px 5px $box-shadow;
+        border-radius: 6px;
+        padding: 24px 24px 42px 24px;
+        transition: all .3s ease 0s;
+
+        &:hover {
+            background: $primary;
+
+            .card__title,
+            .card__text {
+                color: #191919;
+            }
+        }
+    }
+
+    // .card__title
+
+    &__title {
+        font-size: 22px;
+        line-height: 1.18;
+        letter-spacing: -0.275px;
+        text-transform: capitalize;
+        color: $secondary;
+    }
+
+    // .card__text
+
+    &__text {
+        font-size: 13px;
+        line-height: 1.38;
+        letter-spacing: -0.1625px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
