@@ -1,0 +1,32 @@
+.h2-subtext {
+    position: relative;
+    text-align: center;
+
+    // .h2-subtext__h2
+
+    &__h2 {
+        padding: 48px 0px;
+        font-size: 36px;
+        line-height: 1.5;
+        letter-spacing: 0.2em;
+        text-transform: capitalize;
+        color: $h2;
+        position: relative;
+        z-index: 5;
+    }
+
+    // .h2-subtext__subtext
+
+    &__subtext {
+        position: absolute;
+        z-index: 4;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 1.5;
+        letter-spacing: 0.2em;
+        color: $subtext;
+    }
+}
