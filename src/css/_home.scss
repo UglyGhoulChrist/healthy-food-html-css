@@ -1,5 +1,4 @@
 .home {
-
     background: url('../img/home/background.jpg') center / cover no-repeat;
     // .home__container
 
@@ -32,7 +31,7 @@
         letter-spacing: 0.1em;
         text-transform: capitalize;
         color: $secondary;
-       
+
         @media (max-width: 1023.98px) {
             font-size: 60px;
         }
@@ -65,25 +64,5 @@
     &__button {
         // margin: 0 auto 70px auto;
         margin: 0 auto 6.15% auto;
-    }
-
-    // .home__list
-
-    &__list {
-        margin: 0 -10px;
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
-
-    // .home__item
-
-    &__item {
-        flex: 1 1 33.33%;
-        padding: 0 10px;
-
-        @media (max-width:767.98px) {
-            flex: 1 1 100%;
-        }
     }
 }
