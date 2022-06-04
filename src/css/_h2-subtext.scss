@@ -13,6 +13,28 @@
         color: $h2;
         position: relative;
         z-index: 5;
+
+        @media (max-width:767.98px) {
+            font-size: 30px;
+            padding: 24px 0px;
+        }
+
+        @media (max-width:424.98px) {
+            font-size: 28px;
+            padding: 12px 0px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 2px;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            background: $primary;
+            // opacity: 0;
+        }
     }
 
     // .h2-subtext__subtext
@@ -25,8 +47,13 @@
         transform: translate(-50%, -50%);
         font-weight: 900;
         font-size: 100px;
+        text-transform: uppercase;
         line-height: 1.5;
         letter-spacing: 0.2em;
         color: $subtext;
+
+        @media (max-width:424.98px) {
+            display: none;
+        }
     }
 }
